@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "market-data"
+version = "0.0.1"
+authors = [
+    { name="Josh Casale", email="joshua.d.casale@gmail.com" },
+]
+description = "A simple polling application for crypto market data"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]

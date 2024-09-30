@@ -1,0 +1,13 @@
+[binance]
+api_key = ""
+api_secret = ""
+api_key_ed25519 = ""
+ed25519_secret_key_path = ""
+polling_interval = 30
+
+[logging]
+log_level = "INFO"
+
+[web-server]
+host = '0.0.0.0'
+port = 8000
